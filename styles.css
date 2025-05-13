@@ -21,6 +21,7 @@
 }
 .linha2 {
     word-break: break-all;
+    margin-right: 30px;
 }
 .button {
     padding: 10px;
