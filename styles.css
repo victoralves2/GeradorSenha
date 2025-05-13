@@ -1,0 +1,44 @@
+.body, html {
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgba(51, 55, 127, 0.878), rgb(68, 30, 155));
+}
+
+#box {
+    border-radius: 4px;
+    margin-top: 100px;
+    padding: 10px 3px 30px 30px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.linha {
+    display:block;
+    margin-bottom: 5px;
+}
+.linha2 {
+    word-break: break-all;
+}
+.button {
+    padding: 10px;
+    background-color: #ababab;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.button:hover {
+      background-color: #878787;  
+}
+
+input[type="number"] {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+}

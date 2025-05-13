@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="box">
+        <h1>Gerador de Senha</h1>
+        <span class="linha">
+            <p id="resultado" class="linha2"></p>
+        </span>
+        <span class="linha">
+            <label for="opcao1">Incluir Números </label>
+            <input type="checkbox" value="incluir números" id="opcao1">
+        </span>
+         <span class="linha">
+            <label for="opcao2">Incluir Letras Maiúsculas </label>
+            <input type="checkbox" value="incluir números" id="opcao2">
+        </span>
+         <span class="linha">
+            <label for="opcao3">Incluir Letras Minúsculas </label>
+            <input type="checkbox" value="incluir números" id="opcao3">
+        </span>
+         <span class="linha">
+            <label for="opcao4">Incluir Símbolos </label>
+            <input type="checkbox" value="incluir números" id="opcao4">
+        </span>
+         <span class="linha">
+            <input type="number" placeholder="Escolha um número" id="tamanho">
+            <button class="button" onclick="verificarCheckBox()">Gerar</button>
+        </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
